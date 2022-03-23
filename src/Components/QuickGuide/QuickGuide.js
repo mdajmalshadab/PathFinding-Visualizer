@@ -74,6 +74,15 @@ function QuickGuide() {
             ) : (
               guide.content
             )}
+            {i === 7 && (
+              <a
+                style={{ textDecoration: 'none' }}
+                href='https://github.com/mdajmalshadab/PathFinding-Visualizer'
+              >
+                {' '}
+                github
+              </a>
+            )}
           </h3>
         </div>
         <div className='quickGuide-img'>

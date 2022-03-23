@@ -4,7 +4,7 @@ import PathFindingVisualizer from '../PathFindingVisualizer/PathFindingVisualize
 function App() {
   return (
     <div className='App'>
-      <PathFindingVisualizer></PathFindingVisualizer>
+      <PathFindingVisualizer />
     </div>
   );
 }

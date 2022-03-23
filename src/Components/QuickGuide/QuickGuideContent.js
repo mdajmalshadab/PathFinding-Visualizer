@@ -62,7 +62,7 @@ const quickGuideContent = [
     subTitle:
       'I hope you have just as much fun playing around with this visualization tool as I had building it!',
     content:
-      'If you want to see the source code for this application, check out my github',
+      'If you want to see the source code for this application, check out my',
     img: '',
   },
 ];
