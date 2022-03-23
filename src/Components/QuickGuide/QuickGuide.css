@@ -1,0 +1,85 @@
+.quickGuide-bg {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 10;
+  width: 100%;
+  height: 120%;
+  overflow-y: auto;
+  position: absolute;
+  top: 0;
+}
+.quickGuide {
+  width: 700px;
+  height: 550px;
+  margin: 90px auto;
+  padding: 0px 30px;
+  background-color: white;
+  border: 1px solid;
+  color: #433f5a;
+  border-radius: 5px;
+  position: relative;
+}
+.quickGuide-heading p {
+  margin-bottom: 0;
+  padding: 0;
+  text-align: right;
+}
+.quickGuide-heading h1 {
+  font-size: 42px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.quickGuide-heading h2 {
+  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.quickGuide-heading h3 {
+  font-size: 18px;
+  margin-bottom: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.quickGuide-img {
+  display: flex;
+  justify-content: center;
+}
+.quickGuide-image-svg {
+  width: 250px;
+  position: absolute;
+}
+.quickGuide-btn {
+  display: flex;
+  justify-content: space-between;
+  width: 93%;
+  position: absolute;
+  bottom: 20px;
+}
+.quickGuide-btn .nav-btn {
+  padding: 10px 12px;
+  margin: 7px;
+  border-radius: 5px;
+  background-color: #f7ccac;
+  outline: none;
+  border: 1px solid #e7c1a3;
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.quickGuide-btn .nav-btn:hover {
+  background-color: #f1c09b;
+}
+.appDemo-video {
+  margin-top: -10px;
+  width: 30%;
+  height: 100%;
+}

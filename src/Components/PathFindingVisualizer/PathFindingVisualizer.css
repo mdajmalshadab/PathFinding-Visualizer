@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+  z-index: 0;
+}
+.grid {
+  margin: 50px auto;
+}
+.grid-row {
+  outline: none;
+  margin-top: -4px;
+}
+.header {
+  padding: 5px 20px;
+  background-color: #372b47;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.header button,
+.drop-down {
+  margin: 10px;
+  background-color: #372b47;
+  color: white;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+.header button:disabled {
+  color: grey;
+}
+.header button:disabled:hover {
+  color: grey;
+}
+.header h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  color: white;
+  cursor: pointer;
+}
+.header button:hover,
+.drop-down:hover,
+.header h1:hover {
+  color: #f7ccac;
+  transition: 0.5s ease;
+}
+
+.drop-down option {
+  color: white;
+}
+.drop-down option:hover {
+  background-color: rgb(24, 230, 185);
+}
+.drop-down {
+  width: 110px;
+}
+.header .visualize-btn {
+  padding: 10px 30px;
+  border-radius: 5px;
+  color: black;
+  background-color: #f7ccac;
+}
+.header .visualize-btn:hover {
+  color: black;
+  background-color: #f1c09b;
+}
+
+.node-visited-1 {
+  background-color: rgba(0, 190, 218, 0.75);
+}
+.path-node {
+  background-color: rgb(255, 254, 106);
+  border: none;
+  width: 27px;
+  height: 27px;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+.legends {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+}
+.legends-element {
+  display: flex;
+  align-items: center;
+}
+.legends-element h3 {
+  margin-left: 10px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+}
+.desc-heading {
+  font-weight: 500;
+  color: #454352;
+}
+
+.disable-weight {
+  color: red;
+  text-decoration: line-through;
+}
+
+.highlighted {
+  font-weight: bold;
+  font-style: italic;
+}
+.node-unvisited-legend {
+  border: 1.6px solid rgb(175, 216, 248);
+}
