@@ -114,3 +114,9 @@ body {
 .node-unvisited-legend {
   border: 1.6px solid rgb(175, 216, 248);
 }
+
+@media screen and (max-width: 640px) {
+  .path-finding {
+    display: none;
+  }
+}

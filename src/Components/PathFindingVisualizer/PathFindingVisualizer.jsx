@@ -443,7 +443,7 @@ export default class PathFindingVisualizer extends Component {
   render() {
     const { grid, mouseIsPressed } = this.state;
     return (
-      <>
+      <div className='path-finding'>
         <div className='header'>
           <h1 onClick={() => showTutorial()}>
             Path Finding Visualizer
@@ -581,7 +581,7 @@ export default class PathFindingVisualizer extends Component {
             );
           })}
         </div>
-      </>
+      </div>
     );
   }
 }
