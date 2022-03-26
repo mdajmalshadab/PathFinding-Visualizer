@@ -1,9 +1,12 @@
 import React from 'react';
 import './Node.css';
-import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
-import AdjustIcon from '@mui/icons-material/Adjust';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faWeightHanging } from '@fortawesome/free-solid-svg-icons';
+import {
+  faWeightHanging,
+  faAngleRight,
+  faBullseye,
+} from '@fortawesome/free-solid-svg-icons';
 
 function Node({
   col,
@@ -50,15 +53,17 @@ function Node({
       }}
     >
       {isStart && (
-        <KeyboardArrowRightIcon
+        <FontAwesomeIcon
           id={`rode-${row}-${col}`}
           className='start-icon'
+          icon={faAngleRight}
         />
       )}
       {isFinish && (
-        <AdjustIcon
+        <FontAwesomeIcon
           id={`rode-${row}-${col}`}
           className='finish-icon'
+          icon={faBullseye}
         />
       )}
 

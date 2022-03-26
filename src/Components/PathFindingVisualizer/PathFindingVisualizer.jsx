@@ -10,10 +10,13 @@ import { animateAlgo } from '../../Algorithms/Dijkstra/animateDijkstra';
 import { GreedyBFS } from '../../Algorithms/GreedyBFS/GreedyBFS';
 import { BFS } from '../../Algorithms/BFS/BFS';
 import { DFS } from '../../Algorithms/DFS/DFS';
-import KeyboardArrowRight from '@mui/icons-material/KeyboardArrowRight';
-import AdjustIcon from '@mui/icons-material/Adjust';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faWeightHanging } from '@fortawesome/free-solid-svg-icons';
+import {
+  faWeightHanging,
+  faAngleRight,
+  faBullseye,
+} from '@fortawesome/free-solid-svg-icons';
+
 import QuickGuide, { showTutorial } from '../QuickGuide/QuickGuide';
 
 var START_NODE_ROW = 10;
@@ -505,11 +508,17 @@ export default class PathFindingVisualizer extends Component {
 
         <div className='legends'>
           <div className='legends-element'>
-            <KeyboardArrowRight className='start-icon' />
+            <FontAwesomeIcon
+              className='start-icon'
+              icon={faAngleRight}
+            />
             <h3>Start Node</h3>
           </div>
           <div className='legends-element'>
-            <AdjustIcon className='finish-icon' />
+            <FontAwesomeIcon
+              className='finish-icon'
+              icon={faBullseye}
+            />
             <h3>Target Node</h3>
           </div>
           <div className='legends-element'>

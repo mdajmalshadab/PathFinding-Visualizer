@@ -94,6 +94,7 @@ body {
 }
 .legends-element h3 {
   margin-left: 10px;
+  font-size: 20px;
   font-weight: 400;
   font-family: 'Roboto', sans-serif;
 }
@@ -115,7 +116,20 @@ body {
   border: 1.6px solid rgb(175, 216, 248);
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1280px) {
+  .header h1 {
+    font-size: 19px;
+  }
+  .legends-element h3 {
+    font-size: 17px;
+  }
+  .header button,
+  .drop-down {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
   .path-finding {
     display: none;
   }

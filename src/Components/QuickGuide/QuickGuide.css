@@ -83,3 +83,17 @@
   width: 30%;
   height: 100%;
 }
+
+@media screen and (max-width: 1280px) {
+  .quickGuide-heading h1 {
+    font-size: 38px;
+  }
+
+  .quickGuide-heading h2 {
+    font-size: 20px;
+  }
+
+  .quickGuide-heading h3 {
+    font-size: 15px;
+  }
+}
