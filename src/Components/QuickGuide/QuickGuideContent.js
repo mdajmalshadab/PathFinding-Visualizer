@@ -38,7 +38,7 @@ const quickGuideContent = [
     subTitle:
       'Click and drag pointer on the grid to add a wall. Click on the "Add Weight" option to add a weights same way. Hold Ctrl + mouse left click over the walls and weights to remove them.',
     content:
-      'Walls are impenetrable, meaning that a path cannot cross through them. Weights, however, are not impassable. They are simply more "costly" to move through. In this application, moving through a weight node has a "cost" of 15.',
+      'Walls are impenetrable, meaning that a path cannot cross through them. Weights, however, are not impassable. They are simply more "costly" to move through. In this application, moving through a weight node has a "cost" of 10.',
     img: '',
   },
   {
